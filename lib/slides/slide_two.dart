@@ -21,12 +21,12 @@ class _SlideTwoState extends State<SlideTwo> with TickerProviderStateMixin {
   void initState() {
     _logoPositionController = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 1),
+      duration: const Duration(seconds: 1),
     );
 
     _onClickAnimationController = AnimationController(
       vsync: this,
-      duration: Duration(milliseconds: 250),
+      duration: const Duration(milliseconds: 250),
     );
 
     _logoPositionAnim = Tween<double>(begin: -100, end: 20).animate(
@@ -158,7 +158,7 @@ class _SlideTwoState extends State<SlideTwo> with TickerProviderStateMixin {
                       // ),
                       TweenAnimationBuilder(
                           tween: Tween<double>(begin: 0, end: 275),
-                          duration: Duration(milliseconds: 250),
+                          duration: const Duration(milliseconds: 250),
                           builder: (context, value, child) {
                             return Positioned(
                               bottom: -100,

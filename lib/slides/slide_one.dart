@@ -2,7 +2,6 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_presentation/providers/slide_index_provider.dart';
-import 'package:flutter_presentation/slides/slide_two.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../const/colors.dart';
